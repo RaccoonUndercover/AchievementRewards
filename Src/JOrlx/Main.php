@@ -13,7 +13,7 @@ class Main extends pluginBase {
 	public function onAchievement($achievementId) {
 		if(Player->hasAchievement($achievementId)){
 			Player->giveItem(Item::get(256, 0, 1))
-      }
+          }
 	}
 
 
@@ -21,4 +21,4 @@ class Main extends pluginBase {
 
 
 
-}
+};
